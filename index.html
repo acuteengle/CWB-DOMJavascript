@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>DOM Javascript</title>
+    </head>
+    <body>  
+        <h1>Let's learn DOM Javascript!</h1>
+
+        <!-- (1) This gets filled with text -->
+        <p id="myParagraph"></p>
+        <hr>
+
+        <!-- (2) This gets its styling changed -->
+        <p id="styledText">Another Paragraph</p>
+        <hr>
+
+        <!-- (3) This changes the text of an existing element -->
+        <p id="changingText">Original Text</p>
+        <button id="textChanger">Click me to change text</button>
+        <hr>
+
+        <!-- (4) This adds new paragraph elements on various events on button -->
+        <button id="textAdder">Click me to add text</button>
+
+        <div id="textContainer"></div>
+        <hr>
+
+        <!-- (5) Change src of image -->
+        <img id="michael" src="https://img.bleacherreport.net/img/images/photos/003/875/045/f747eca6d77ef4822de3a4c98bb4324e_crop_exact.jpg?h=646&w=970&q=70&crop_x=center&crop_y=top" width="400">
+
+        <br>
+
+        <button onclick="changeGif()">Change to Gif</button>
+
+        <button onclick="changePhoto()">Change to Image</button>
+
+        <hr>
+
+        <!-- (6) click triggers a log in the console -->
+        <button id="logger">Click me to add a log</button>
+
+        <hr>
+
+        <!-- (7) typing triggers keydown event and logging of value inside text input-->
+        <input type="text" id="myInput">
+
+        <script src="script.js"></script>
+    </body>
+</html>
